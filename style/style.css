@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Roboto, sans-serif;
+}
+/*.first-screen {
+}*/
+.container__first-screen {
+    width: 1920px;
+    height: 700px;
+    padding-top: 57px;
+    box-sizing: border-box;
+
+    background: #eeeff1;
+}
+.first-screen__menu {
+    display: flex;
+    width: 1009px;
+    margin: 0 0 0 402px ;
+}
+.img__menu {
+    margin: 0 398px 0 0;
+}
+.first-screen__container-link {
+    width: 700px;
+    padding: 8px 0 0 0;
+    margin: 0 -179px 0 0;
+}
+.first-screen__link {
+    margin: 0 42px 0 0;
+}
+.first-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.25px;
+
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: #34547a;
+}
+.link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.25px;
+
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: #000;
+}
+.first-screen__lure {
+    display: flex;
+    margin: 162px 0 0 487px;
+}
+.first-screen__design {
+    margin: 0 0 0 130px;
+}
+/*.first-screen__explain {
+}*/
+.first-screen__header {
+    margin: 0 0 60px 0;
+
+    font-size: 48px;
+    font-weight: 500;
+
+    color: #000;
+}
+.first-screen__paragraph {
+    width: 540px;
+    height: 67px;
+    margin: 0 0 60px 0;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 400;
+    line-height: 26px;
+
+    text-align: left;
+}
+.paragraph {
+    width: 540px;
+    height: 67px;
+
+    font-size: 16px;
+
+    color: #727272;
+}
+.first-screen__button {
+    width: 225px;
+    height: 65px;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+}
+.button {
+    line-height: 164.063%;
+
+    text-align: center;
+    letter-spacing: 1.6px;
+
+    color: #fff;
+    border: none;
+    background: #34547a;
+}
+/*.container__about-me {
+}
+.envelop__about-me {
+}
+.about-me__header {
+}*/
+.about-me__paragraph {
+    text-align: center;
+}
