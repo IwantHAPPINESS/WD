@@ -109,12 +109,258 @@ body {
     border: none;
     background: #34547a;
 }
-/*.container__about-me {
+.container__about-me {
+    width: 1920px;
+    height: 336px ;
+    padding: 100px 0 0 0 ;
+    box-sizing: border-box;
+
+    background: #f9f9f9;
 }
 .envelop__about-me {
+    width: 550px;
+    margin: 19px 0 0 690px ;
+    box-sizing: border-box;
+}
+.header {
+    font-size: 32px;
+    font-weight: 500;
+
+    color: #000;
 }
 .about-me__header {
-}*/
+    margin: 0 0 50px 225px;
+}
 .about-me__paragraph {
     text-align: center;
+}
+.number-project {
+    width: 1920px;
+    height: 250px;
+    padding: 100px 0 0 0;
+    box-sizing: border-box;
+
+    background: #34547a;
+}
+
+.number-project__container {
+    margin: 0  0 0 405px;
+}
+
+.item-project {
+    margin: 0 0 0 49px;
+}
+.skills-block {
+    height: 653px;
+    min-width: 1920px;
+    padding: 102px 0 0 0 ;
+    box-sizing: border-box;
+
+    background: #f9f9f9;
+}
+.skills-block__container {
+    display: flex;
+    width: 1150.002px;
+    height: 450px;
+    margin: 0 0 0 430px;
+    box-sizing: border-box;
+}
+.skill__list {
+    box-sizing: border-box;
+}
+.skills__header {
+    margin: 102px 0 50px 0;
+}
+.skill__list__indicator-block {
+    box-sizing: border-box;
+}
+.skill__list__adobe {
+    font-size: 16px;
+    line-height: 164.063%;
+
+    color: #727272;
+}
+.skill__list__container-indicator1 {
+    width: 445px;
+    height: 4px;
+    margin: 19.88px 0 29.76px 0 ;
+
+    background: #c4c4c4;
+}
+.skill__list__container-indicator2 {
+    width: 349.357px;
+    height: 4px;
+
+    transform: rotate(-.06deg);
+    animation: fuck 5s ease  infinite;
+
+    background: #34547a;
+}
+.skills-block__img {
+    width: 555px;
+    height: 450px;
+    margin: 0 0 0 150px;
+}
+/*.video__block {
+}*/
+.video__block__container {
+    height: 1004px;
+    min-width: 1920px;
+    padding: 100px 0 0 0 ;
+    box-sizing: border-box;
+
+    background: #eeeff1;
+}
+.video__block__about-work {
+    width: 540px;
+    height: 147px;
+    margin: 0 0 57px 690px;
+    box-sizing: border-box;
+}
+.video__about__header {
+    margin: 0 0 50px 150px ;
+}
+.video__about__paragraph {
+    text-align: center;
+}
+/*.video__block__video {
+}*/
+.video__about__img {
+    width: 1110px;
+    height: 600px;
+    margin: 0 0 100px 405px;
+}
+.video__about__img__play_button {
+    position: absolute;
+    z-index: 2;
+
+    margin: 250px 0 0 -600px;
+}
+.project-photo__block {
+    width: 1920px;
+    height: 960px;
+    margin: 28px 0 0 0 ;
+    box-sizing: border-box;
+}
+.project-photo {
+    width: 481px;
+    height: 480px;
+    margin: -4px 0 0 -4px;
+}
+.project-photo__view {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    margin: 190px 0 0 -295px;
+}
+.microsoft_icon__block {
+    display: flex;
+    height: 292px;
+    min-width: 1920px;
+    padding: 72px 0 0 405px ;
+    box-sizing: border-box;
+
+    background: #f9f9f9;
+}
+.microsoft_icon {
+    width: 255px;
+    height: 120px;
+    margin: 0 0 0 30px;
+}
+.form__block {
+    height: 762px;
+    min-width: 1920px;
+    padding: 100px 0 0 0 ;
+    box-sizing: border-box;
+
+    background: #eeeff1;
+}
+.form__block__want_site {
+    margin: 0 0 0 690px;
+}
+.form__block__header {
+    margin: 0 0 50px 170px ;
+
+    color: #000;
+}
+.form__block__paragraph {
+    text-align: center;
+}
+/*.form{
+}*/
+.form__block-inline {
+    margin: 65px 0 0 690px;
+}
+.form__block-inline__name {
+    width: 255px;
+    height: 50px;
+    padding: 0 0 0 20px;
+    margin: 0 30px 0 0;
+
+    font-weight: 400;
+
+    color: #5f5d5d;
+}
+.input {
+    box-sizing: border-box;
+
+    border: none;
+}
+.form__block-inline__Email {
+    width: 255px;
+    height: 50px;
+    padding: 0 0 0 20px;
+}
+.form__texterea {
+    width: 540px;
+    height: 175px;
+    padding: 17px 0 0 20px;
+    margin: 20px 0 0 690px;
+
+    resize: none;
+}
+.form__texterea:hover {
+    border: none;
+}
+.form__button {
+    width: 190px;
+    height: 55px;
+    margin: 50px 0 0  864px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+
+    letter-spacing: 2.1px;
+
+    color: #fff;
+}
+.footer {
+    height: 151px ;
+    min-width: 1920px;
+    box-sizing: border-box;
+
+    background: #34547a;
+}
+.footer__inline {
+    display: flex;
+}
+.footer__author__block {
+    margin: 50px 0 0 406px;
+}
+.footer__header {
+    color: #fff;
+}
+.footer__paragraph {
+    font-size: 13px;
+    line-height: 164.063%; /* 21.328px */
+
+    color: #fff;
+}
+.footer__inline__vk-block {
+    margin: 56px 0 0 757px;
+}
+.vk__logo {
+    margin: 0 0 0 21.88px;
 }
